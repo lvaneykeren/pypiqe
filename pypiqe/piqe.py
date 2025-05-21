@@ -76,7 +76,7 @@ def piqe(I):
     #   # NoiseMask for a JP2K compressed image with added AWGN noise patch.
     #
     #   I = imread('DistortedImage.png');
-    #   [Score, ActivityMask, NoticeableArtifactsMask, NoiseMask] = piqe(I);
+    #   [Score, NoticeableArtifactsMask, NoiseMask, ActivityMask] = piqe(I);
     #   J  = labeloverlay(I, ActivityMask, 'Colormap', 'winter', 'Transparency', 0.25);
     #   K  = labeloverlay(I, NoticeableArtifactsMask, 'Colormap', 'autumn', 'Transparency', 0.25);
     #   L  = labeloverlay(I, NoiseMask, 'Colormap', 'hot', 'Transparency', 0.25);

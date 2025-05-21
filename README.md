@@ -16,7 +16,7 @@ pip install pypiqe
 ```
 from pypiqe import piqe
 
-score, activityMask, noticeableArtifactMask, noiseMask = piqe(I)
+score, noticeableArtifactMask, noiseMask, activityMask = piqe(I)
 ```
 
 ## Description
